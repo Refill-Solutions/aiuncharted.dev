@@ -4,14 +4,32 @@ date: 2025-07-02T10:05:00+02:00
 draft: false
 ---
 
-Welcome to AI Uncharted – part sandbox, part notebook. This is a personal lab for exploring, testing, and gradually mastering artificial intelligence through hands-on experimentation rather than theory.
+Welcome to AI Uncharted – a quiet space for learning in public, building without certainty, and pushing beyond what feels comfortable.
 
-- This isn’t a showcase. It’s a workshop.
+This project isn’t the result of a grand plan. It grew out of a growing need to explore artificial intelligence in a hands-on, honest way – not from the outside, but from within.
 
-Behind the blog is someone who prefers to stay out of the spotlight, but still chooses to build in public – because learning, slow mastery, and deep exploration often require stepping outside what feels safe.
+I don’t come from software development. My background is in accounting and business operations, with years of experience structuring systems, analyzing problems, and setting up cloud environments and Kubernetes clusters. I’ve always worked close to complexity – and learned best when I didn’t fully understand what I was doing at the start.
 
-The background is rooted in finance and business systems, but the path has led much further – into AI, automation, cloud infrastructure, Kubernetes, and the creation of practical digital tools. Not as a developer, but as an architect, analyst, and endlessly curious problem-solver.
+### Why this space exists:
 
-The focus here is artificial intelligence – not as a trend, but as a tool. Not just for developers, but for anyone willing to go beyond writing emails, generating images, or stitching together short videos.
+**To learn and grow**
+This is where I untangle things – from AI agents and local LLMs to infrastructure, automation, and orchestration. Not to impress, but to understand.
 
-The content will at times be technical and complex. That’s simply where curiosity tends to thrive – in the unknown, where the learning curve is steep, and the pieces only fit after some resistance.
+**To document and reflect**
+Writing things down – the why, the how, the failures – helps me think. And if it helps someone else too, even better.
+
+**To build things that matter**
+I’m testing agents, workflows, and tools designed to solve real problems. Not because I know what I’m doing, but because I’m willing to figure it out.
+
+### On AI itself
+AI isn’t just for developers, and it’s more than a tool for generating text or images. Used intentionally, it can support business logic, augment decision-making, and automate work that once felt immovable.
+
+But that takes more than prompts – it takes process, context, and architecture.
+
+That’s what I’m exploring here.
+
+### ⚙️ What to expect
+This site is part lab, part logbook. Some experiments will fail. Some will click into place. Most will live somewhere in between – as stepping stones to something more useful.
+
+If you’re here for polish, you might be disappointed.
+If you’re here for process, welcome.
