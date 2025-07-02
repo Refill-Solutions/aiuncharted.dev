@@ -6,6 +6,8 @@ draft: false
 
 Welcome to AI Uncharted – part sandbox, part notebook. This is a personal lab for exploring, testing, and gradually mastering artificial intelligence through hands-on experimentation rather than theory.
 
+- This isn’t a showcase. It’s a workshop.
+
 Behind the blog is someone who prefers to stay out of the spotlight, but still chooses to build in public – because learning, slow mastery, and deep exploration often require stepping outside what feels safe.
 
 The background is rooted in finance and business systems, but the path has led much further – into AI, automation, cloud infrastructure, Kubernetes, and the creation of practical digital tools. Not as a developer, but as an architect, analyst, and endlessly curious problem-solver.
