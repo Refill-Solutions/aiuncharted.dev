@@ -61,5 +61,9 @@ Kontekstoppsummering for Ny AI-Agent
 
   ---
 
-
   Du er nå fullt briefet. Jeg er klar til å hjelpe deg med oppsett av bloggen på aiuncharted.dev i den nye konteksten.
+
+  ---
+
+  Arbeidsflyt-instrukser:
+  * Etter hver vellykket endring (f.eks. filoppretting, modifisering), skal endringene committes til Git-repoet med en fornuftig og beskrivende commit-melding.
