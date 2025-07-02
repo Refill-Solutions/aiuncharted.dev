@@ -2,3 +2,15 @@ baseURL = "https://aiuncharted.dev/"
 languageCode = "en-us"
 title = "AI Uncharted"
 theme = "ananke"
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "Om meg"
+    url = "/about/"
+    weight = 10
+  [[menu.main]]
+    identifier = "why"
+    name = "Hvorfor AI Uncharted?"
+    url = "/why/"
+    weight = 20
