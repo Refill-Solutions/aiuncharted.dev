@@ -1,0 +1,4 @@
+baseURL = "https://aiuncharted.dev/"
+languageCode = "en-us"
+title = "AI Uncharted"
+theme = "ananke"
