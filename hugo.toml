@@ -1,6 +1,6 @@
 baseURL = "https://aiuncharted.dev/"
 languageCode = "en-us"
-title = "AI Uncharted - This isn’t a showcase. It’s a workshop"
+title = "AI Uncharted"
 theme = "ananke"
 
 [menu]
