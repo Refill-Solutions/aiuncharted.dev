@@ -1,17 +1,17 @@
 ---
-title: "Hvorfor AI Uncharted?"
+title: "Why AI Uncharted?"
 date: 2025-07-02T10:05:00+02:00
 draft: false
 ---
 
-Velkommen til AI Uncharted! Dette prosjektet er mitt personlige laboratorium for å utforske og mestre kunstig intelligens.
+Welcome to AI Uncharted! This project is my personal laboratory for exploring and mastering artificial intelligence.
 
-Som en person med bakgrunn i revisjon og regnskap, har jeg alltid vært fascinert av effektivitet og optimalisering. AI representerer en enorm mulighet til å automatisere, analysere og innovere på måter som tidligere var utenkelige.
+As someone with a background in auditing and accounting, I've always been fascinated by efficiency and optimization. AI represents a tremendous opportunity to automate, analyze, and innovate in ways previously unimaginable.
 
-Jeg bygger denne plattformen for å:
+I'm building this platform to:
 
-*   **Lære og vokse:** Dokumentere min egen læringsreise innen AI, fra grunnleggende konsepter til avanserte applikasjoner.
-*   **Dele kunnskap:** Gi innsikt og veiledning til andre som er nysgjerrige på AI, spesielt de med en ikke-teknisk bakgrunn.
-*   **Bygge løsninger:** Utvikle og teste AI-agenter og verktøy som kan løse reelle forretningsproblemer og skape verdi.
+*   **Learn and Grow:** Document my own learning journey in AI, from fundamental concepts to advanced applications.
+*   **Share Knowledge:** Provide insights and guidance to others curious about AI, especially those with a non-technical background.
+*   **Build Solutions:** Develop and test AI agents and tools that can solve real business problems and create value.
 
-Målet er å demystifisere AI og vise hvordan det kan brukes til å bygge lønnsomme og bærekraftige virksomheter. Bli med på reisen!
+The goal is to demystify AI and show how it can be used to build profitable and sustainable businesses. Join me on this journey!

@@ -6,11 +6,11 @@ theme = "ananke"
 [menu]
   [[menu.main]]
     identifier = "about"
-    name = "Om meg"
+    name = "About Me"
     url = "/about/"
     weight = 10
   [[menu.main]]
     identifier = "why"
-    name = "Hvorfor AI Uncharted?"
+    name = "Why AI Uncharted?"
     url = "/why/"
     weight = 20

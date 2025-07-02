@@ -1,11 +1,11 @@
 ---
-title: "Om meg"
+title: "About Me"
 date: 2025-07-02T10:00:00+02:00
 draft: false
 ---
 
-Hei! Jeg er Erik Nergaard, og dette er min reise inn i AI-verdenen.
+Hi! I'm Erik Nergaard, and this is my journey into the world of AI.
 
-Jeg har en bakgrunn innen revisjon og regnskap, noe som gir meg et unikt perspektiv på forretningsdrift, compliance og økonomi. Min motivasjon for å starke dette prosjektet er å lære, eksperimentere, presse komfortsonen, og bygge lønnsomme virksomheter med AI.
+I have a background in auditing and accounting, which gives me a unique perspective on business operations, compliance, and finance. My motivation for starting this project is to learn, experiment, push my comfort zone, and build profitable businesses with AI.
 
-Gjennom denne bloggen vil jeg dele mine erfaringer, utfordringer og suksesser mens jeg utforsker hvordan AI kan transformere forretningsprosesser og skape nye muligheter.
+Through this blog, I will share my experiences, challenges, and successes as I explore how AI can transform business processes and create new opportunities.
