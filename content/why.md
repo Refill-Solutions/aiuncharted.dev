@@ -4,14 +4,12 @@ date: 2025-07-02T10:05:00+02:00
 draft: false
 ---
 
-Welcome to AI Uncharted! This project is my personal laboratory for exploring and mastering artificial intelligence.
+This isn’t a showcase. It’s a workshop.
 
-As someone with a background in auditing and accounting, I've always been fascinated by efficiency and optimization. AI represents a tremendous opportunity to automate, analyze, and innovate in ways previously unimaginable.
+Behind the blog is someone who prefers to stay out of the spotlight, but still chooses to build in public – because learning, slow mastery, and deep exploration often require stepping outside what feels safe.
 
-I'm building this platform to:
+The background is rooted in finance and business systems, but the path has led much further – into AI, automation, cloud infrastructure, Kubernetes, and the creation of practical digital tools. Not as a developer, but as an architect, analyst, and endlessly curious problem-solver.
 
-*   **Learn and Grow:** Document my own learning journey in AI, from fundamental concepts to advanced applications.
-*   **Share Knowledge:** Provide insights and guidance to others curious about AI, especially those with a non-technical background.
-*   **Build Solutions:** Develop and test AI agents and tools that can solve real business problems and create value.
+The focus here is artificial intelligence – not as a trend, but as a tool. Not just for developers, but for anyone willing to go beyond writing emails, generating images, or stitching together short videos.
 
-The goal is to demystify AI and show how it can be used to build profitable and sustainable businesses. Join me on this journey!
+The content will at times be technical and complex. That’s simply where curiosity tends to thrive – in the unknown, where the learning curve is steep, and the pieces only fit after some resistance.
