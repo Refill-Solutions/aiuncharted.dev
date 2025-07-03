@@ -1,0 +1,2 @@
+{{- $url := printf "https://twitter.com/intent/tweet?url=%s&text=%s" (urls.QueryEscape .Page.Permalink) (urls.QueryEscape .Page.Title) -}}
+<blockquote class="twitter-tweet"><p><a href="{{ $url }}" target="_blank" rel="noopener">{{ .Inner | markdownify }}</a></p></blockquote> 
