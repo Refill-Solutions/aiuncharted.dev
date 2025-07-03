@@ -12,6 +12,7 @@ theme = "PaperMod"
   ShowRss = true
   ShowToc = true
   TocOpen = true
+  ShowMenu = true
   comments = false # Enable if you want comments
   profileMode = { enabled = false } # Enable if you want a profile section on homepage
   mainSections = ["posts"]
