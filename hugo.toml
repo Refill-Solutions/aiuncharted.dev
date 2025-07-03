@@ -14,6 +14,7 @@ theme = "PaperMod"
   TocOpen = true
   comments = false # Enable if you want comments
   profileMode = { enabled = false } # Enable if you want a profile section on homepage
+  mainSections = ["posts"]
 
   [params.assets]
     disableHLJS = true # to use Hugo's own highlight.js
@@ -33,10 +34,10 @@ theme = "PaperMod"
     url = "why/"
     weight = 20
 
-  [[params.menu.main]]
-    name = "Posts"
-    url = "posts/"
-    weight = 30
+  # [[params.menu.main]]
+  #   name = "Posts"
+  #   url = "posts/"
+  #   weight = 30
 
 [taxonomies]
   category = "categories"
@@ -50,3 +51,8 @@ theme = "PaperMod"
   lineNos = true
   noClasses = false
   style = "dracula" # Or any other style you prefer
+
+[[params.redirects]]
+  from = "/posts/"
+  to = "/"
+  code = 301 # Permanent redirect
