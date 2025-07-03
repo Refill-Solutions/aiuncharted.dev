@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Tailscale",
+    "url": "https://tailscale.com/",
+    "description": "A secure network that connects your devices."
+  },
+  {
+    "name": "Sunshine",
+    "url": "https://lizardbyte.dev/projects/sunshine/",
+    "description": "A self-hosted game stream host for remote desktop access."
+  },
+  {
+    "name": "Cloudflare Tunnel",
+    "url": "https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/use-cases/ssh/",
+    "description": "A service to securely expose a local server to the internet."
+  }
+]

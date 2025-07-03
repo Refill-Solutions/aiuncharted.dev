@@ -26,6 +26,11 @@ enableEmoji = true
     identifier = "posts"
     name = "Posts"
     url = "/posts/"
+  [[menu.main]]
+    weight = 40
+    identifier = "tools"
+    name = "Tools"
+    url = "/tools/"
 
 # Site parameters
 [params]
