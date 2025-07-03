@@ -67,3 +67,4 @@ Kontekstoppsummering for Ny AI-Agent
 
   Arbeidsflyt-instrukser:
   * Etter hver vellykket endring (f.eks. filoppretting, modifisering), skal endringene committes til Git-repoet med en fornuftig og beskrivende commit-melding.
+  * Etter å ha laget et nytt blogginnlegg, kjør `python3 scripts/update_tools.py` for å oppdatere verktøysiden.
