@@ -1,16 +1,52 @@
 baseURL = "https://aiuncharted.dev/"
 languageCode = "en-us"
 title = "AI Uncharted"
-theme = "ananke"
+theme = "PaperMod"
 
-[menu]
-  [[menu.main]]
-    identifier = "about"
+[params]
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowRss = true
+  ShowToc = true
+  TocOpen = true
+  comments = false # Enable if you want comments
+  profileMode = { enabled = false } # Enable if you want a profile section on homepage
+
+  [params.assets]
+    disableHLJS = true # to use Hugo's own highlight.js
+    favicon = "/favicon.ico" # Placeholder for favicon
+
+  [params.homeInfoParams]
+    Enabled = true
+    Content = "This is a personal lab for exploring, testing, and gradually mastering artificial intelligence through hands-on experimentation rather than theory."
+
+  [[params.menu.main]]
     name = "About Me"
-    url = "/about/"
+    url = "about/"
     weight = 10
-  [[menu.main]]
-    identifier = "why"
+
+  [[params.menu.main]]
     name = "Why AI Uncharted?"
-    url = "/why/"
+    url = "why/"
     weight = 20
+
+  [[params.menu.main]]
+    name = "Posts"
+    url = "posts/"
+    weight = 30
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  series = "series"
+
+[markup.highlight]
+  anchorLineNos = true
+  codeFences = true
+  guessSyntax = true
+  lineNos = true
+  noClasses = false
+  style = "dracula" # Or any other style you prefer
