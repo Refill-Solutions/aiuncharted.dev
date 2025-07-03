@@ -7,6 +7,8 @@ theme = "LoveIt"
   # LoveIt theme specific parameters
   defaultTheme = "auto"
   dateFormat = "2006-01-02"
+  description = "A personal lab for exploring, testing, and mastering AI."
+  keywords = ["AI", "Artificial Intelligence", "Machine Learning", "Automation", "Cloud", "Kubernetes", "Blog"]
   # more params can be added here as needed
 
 [menu]
