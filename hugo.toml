@@ -1,17 +1,13 @@
 baseURL = "https://aiuncharted.dev/"
 languageCode = "en-us"
 title = "AI Uncharted"
-theme = "LoveIt"
+theme = "ananke"
 
 # Basic Hugo settings
 defaultContentLanguage = "en"
 enableRobotsTXT = true
 enableGitInfo = false
 enableEmoji = true
-disableKinds = ["taxonomy", "term"]
-
-# Ignore build errors
-ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
 # Menu config
 [menu]
@@ -33,108 +29,25 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
 # Site parameters
 [params]
-  defaultTheme = "auto"
-  fingerprint = ""
-  dateFormat = "2006-01-02"
-  title = "AI Uncharted"
+  author = "Erik Nergaard"
   description = "A personal lab for exploring, testing, and gradually mastering artificial intelligence through hands-on experimentation rather than theory."
-  
-  # Author config
-  [params.author]
-    name = "Erik Nergaard"
-    email = ""
-    link = ""
-
-  # Header config
-  [params.header]
-    desktopMode = "fixed"
-    mobileMode = "auto"
-    [params.header.title]
-      name = "AI Uncharted"
-      post = " - This isn't a showcase. It's a workshop."
-      typeit = false
-
-  # Footer config
-  [params.footer]
-    enable = true
-    hugo = true
-    copyright = true
-    author = true
-    since = 2024
-    license = '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
-
-  # Search config - disabled
-  [params.search]
-    enable = false
-
-  # Home page config
-  [params.home]
-    rss = 10
-    [params.home.profile]
-      enable = true
-      title = ""
-      subtitle = "A Clean, Elegant but Advanced Hugo Theme"
-      typeit = true
-      social = false
-    [params.home.posts]
-      enable = true
-      paginate = 6
-
-  # Page config
-  [params.page]
-    hiddenFromHomePage = false
-    hiddenFromSearch = false
-    twemoji = false
-    lightgallery = false
-    ruby = true
-    fraction = true
-    fontawesome = true
-    linkToMarkdown = true
-    rssFullText = false
-    [params.page.toc]
-      enable = true
-      keepStatic = false
-      auto = true
-    [params.page.code]
-      copy = true
-      maxShownLines = 50
-    [params.page.comment]
-      enable = false
-    [params.page.share]
-      enable = false
-
-  # CDN config
-  [params.cdn]
-    data = "jsdelivr.yml"
-
-  # Compatibility config
-  [params.compatibility]
-    polyfill = false
-    objectFit = false
+  facebook = ""
+  twitter = ""
+  instagram = ""
+  youtube = ""
+  github = ""
+  gitlab = ""
+  linkedin = ""
+  mastodon = ""
+  slack = ""
+  stackoverflow = ""
+  rss = ""
+  background_color_class = "bg-black"
+  featured_image = ""
+  recent_posts_number = 3
 
 # Markup configuration
 [markup]
-  [markup.highlight]
-    codeFences = true
-    guessSyntax = false
-    lineNos = false
-    lineNumbersInTable = true
-    noClasses = true
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
-  [markup.tableOfContents]
-    startLevel = 2
-    endLevel = 6
-
-# Sitemap config
-[sitemap]
-  changefreq = "weekly"
-  filename = "sitemap.xml"
-  priority = 0.5
-
-# Output formats
-[outputs]
-  home = ["HTML", "RSS"]
-  page = ["HTML"]
-  section = ["HTML", "RSS"]
