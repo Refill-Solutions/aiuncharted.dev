@@ -19,9 +19,9 @@ theme = "PaperMod"
     disableHLJS = true # to use Hugo's own highlight.js
     favicon = "/favicon.ico" # Placeholder for favicon
 
-  [params.homeInfoParams]
-    Enabled = true
-    Content = "This is a personal lab for exploring, testing, and gradually mastering artificial intelligence through hands-on experimentation rather than theory."
+  # [params.homeInfoParams]
+#   Enabled = true
+#   Content = "This is a personal lab for exploring, testing, and gradually mastering artificial intelligence through hands-on experimentation rather than theory."
 
   [[params.menu.main]]
     name = "About Me"
