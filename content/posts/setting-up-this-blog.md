@@ -1,6 +1,6 @@
 +++
 title = "How I Set Up This Blog - From Idea to Auto-Deployment"
-date = 2025-01-03T15:00:00+02:00
+date = 2025-07-04T15:00:00+02:00
 draft = false
 description = "Complete walkthrough of setting up aiuncharted.dev - from domain purchase to automated publishing via Cloudflare Pages"
 +++
