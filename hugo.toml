@@ -1,7 +1,7 @@
 baseURL = "https://aiuncharted.dev/"
 languageCode = "en-us"
 title = "AI Uncharted"
-theme = "ananke"
+theme = "PaperMod"
 
 # Basic Hugo settings
 defaultContentLanguage = "en"
@@ -15,61 +15,52 @@ buildFuture = true
   pagerSize = 10
   path = "page"
 
-# Menu config
-[menu]
-  [[menu.main]]
-    weight = 10
-    identifier = "about"
-    name = "About Me"
-    url = "/about/"
-  [[menu.main]]
-    weight = 20
-    identifier = "why"
-    name = "Why AI Uncharted?"
-    url = "/why/"
-  [[menu.main]]
-    weight = 30
-    identifier = "posts"
-    name = "Posts"
-    url = "/posts/"
-  [[menu.main]]
-    weight = 40
-    identifier = "tools"
-    name = "Tools"
-    url = "/tools/"
-
 # Content sorting
 [frontmatter]
   date = ["date", "publishDate", "lastmod"]
-  
+
+# Navigation Menu
+[menu]
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Why AI Uncharted"
+    url = "/why-ai-uncharted/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Tools"
+    url = "/tools/"
+    weight = 3
+
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 4
+
 # Site parameters
 [params]
   author = "Erik Nergaard"
   description = "A personal lab for exploring, testing, and gradually mastering artificial intelligence through hands-on experimentation rather than theory."
-  facebook = ""
-  twitter = ""
-  instagram = ""
-  youtube = ""
-  github = ""
-  gitlab = ""
-  linkedin = ""
-  mastodon = ""
-  slack = ""
-  stackoverflow = ""
-  rss = ""
-  background_color_class = "bg-black"
-  featured_image = ""
-  recent_posts_number = 3
   
-  # Ananke theme specific
-  ananke_version = "2.8.2"
-  site_logo = ""
+  # PaperMod specific features
+  ShowReadingTime = true
+  ShowCodeCopyButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowToc = true
+  
+  # Social and metadata
+  images = [""]
   
   # Post sorting - newest first
   mainSections = ["posts"]
   
-  [params.ananke]
-    show_recent_posts = true
+  [params.assets]
+    disable_mermaid = false
 
 # Markup configuration
 [markup]

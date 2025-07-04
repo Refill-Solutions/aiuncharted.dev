@@ -1,0 +1,13 @@
+<!-- Mermaid.js support -->
+{{ if not .Site.Params.assets.disable_mermaid }}
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10.6.1/dist/mermaid.min.js"></script>
+<script>
+  window.addEventListener('load', function() {
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: 'default',
+      securityLevel: 'loose'
+    });
+  });
+</script>
+{{ end }} 
