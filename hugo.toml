@@ -8,6 +8,7 @@ defaultContentLanguage = "en"
 enableRobotsTXT = true
 enableGitInfo = false
 enableEmoji = true
+buildFuture = true
 
 # Pagination configuration (Hugo v0.128.0+ syntax)
 [pagination]
