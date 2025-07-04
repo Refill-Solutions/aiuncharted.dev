@@ -5,7 +5,7 @@
     </section>
     <section class="flex-ns mt5 flex-wrap justify-around">
       {{ $pages := collections.Sort .Pages "Date" "desc" }}
-      {{ $paginator := site.Paginate $pages }}
+      {{ $paginator := .Paginate $pages }}
       {{ range $paginator.Pages }}
         <div class="w-100 w-30-l mb4 relative bg-white">
           {{ .Render "summary" }}

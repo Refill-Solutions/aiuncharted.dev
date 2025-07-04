@@ -8,8 +8,11 @@ defaultContentLanguage = "en"
 enableRobotsTXT = true
 enableGitInfo = false
 enableEmoji = true
-paginate = 10
-paginatePath = "page"
+
+# Pagination configuration (Hugo v0.128.0+ syntax)
+[pagination]
+  pagerSize = 10
+  path = "page"
 
 # Menu config
 [menu]
