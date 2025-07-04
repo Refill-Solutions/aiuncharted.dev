@@ -8,6 +8,8 @@ defaultContentLanguage = "en"
 enableRobotsTXT = true
 enableGitInfo = false
 enableEmoji = true
+paginate = 10
+paginatePath = "page"
 
 # Menu config
 [menu]
@@ -32,6 +34,10 @@ enableEmoji = true
     name = "Tools"
     url = "/tools/"
 
+# Content sorting
+[frontmatter]
+  date = ["date", "publishDate", "lastmod"]
+  
 # Site parameters
 [params]
   author = "Erik Nergaard"
@@ -50,6 +56,16 @@ enableEmoji = true
   background_color_class = "bg-black"
   featured_image = ""
   recent_posts_number = 3
+  
+  # Ananke theme specific
+  ananke_version = "2.8.2"
+  site_logo = ""
+  
+  # Post sorting - newest first
+  mainSections = ["posts"]
+  
+  [params.ananke]
+    show_recent_posts = true
 
 # Markup configuration
 [markup]
