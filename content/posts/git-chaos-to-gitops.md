@@ -130,13 +130,13 @@ Each Helm chart includes:
 
 ## Technologies Used
 
-- **k3s**: Lightweight Kubernetes distribution
-- **ArgoCD**: GitOps continuous delivery
-- **Helm**: Kubernetes package manager
-- **NATS**: Cloud native messaging system
-- **Tailscale**: Zero-config VPN for remote access
-- **FastAPI**: Modern Python web framework
-- **GitHub Apps**: Secure repository integration
+- **[k3s](/tools/software/#infrastructure--devops)**: Lightweight Kubernetes distribution
+- **[ArgoCD](/tools/software/#infrastructure--devops)**: GitOps continuous delivery
+- **[Helm](/tools/software/#infrastructure--devops)**: Kubernetes package manager
+- **[NATS](/tools/software/#infrastructure--devops)**: Cloud native messaging system
+- **[Tailscale](/tools/software/#infrastructure--devops)**: Zero-config VPN for remote access
+- **[FastAPI](/tools/software/#web-development)**: Modern Python web framework
+- **[GitHub Apps](/tools/software/#development-environment)**: Secure repository integration
 
 ## Key Takeaways
 
