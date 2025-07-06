@@ -20,7 +20,7 @@ But fixing git performance was just the beginning. The real goal was building an
 
 ### Container Orchestration: k3s
 
-Why k3s over full Kubernetes?
+Why [k3s](/tools/software/#infrastructure--devops) over full Kubernetes?
 - **Lightweight**: Perfect for single-node development
 - **Resource efficient**: Ideal for dedicated hardware
 - **Production compatible**: Can migrate to full K8s later  
@@ -28,7 +28,7 @@ Why k3s over full Kubernetes?
 
 ### GitOps: ArgoCD
 
-The heart of the operation:
+The heart of the operation with [ArgoCD](/tools/software/#infrastructure--devops):
 - **Git-driven deployments**: Push to git, everything updates automatically
 - **Declarative**: Infrastructure and applications as code
 - **GitHub App integration**: Secure repository access
@@ -36,7 +36,7 @@ The heart of the operation:
 
 ### Packaging: Helm vs Kustomize
 
-Initially went with Kustomize + Helm hybrid with environment overlays (base/development/production).
+Initially went with Kustomize + [Helm](/tools/software/#infrastructure--devops) hybrid with environment overlays (base/development/production).
 
 Final decision: Pure Helm after realizing we were over-engineering for a single-environment setup:
 - Simpler mental model
@@ -51,12 +51,12 @@ Explored Cloudflare Tunnel + Zero Trust for external access.
 Chose localhost + port-forwarding for development:
 - **Portability**: Works on any machine that clones the repo
 - **Simplicity**: No DNS configuration or tunnel setup
-- **Tailscale compatible**: Remote desktop access gives full GUI experience
+- **[Tailscale](/tools/software/#infrastructure--devops) compatible**: Remote desktop access gives full GUI experience
 - **Cost effective**: No external dependencies
 
 ### Messaging: NATS
 
-For inter-service communication, NATS won because:
+For inter-service communication, [NATS](/tools/software/#infrastructure--devops) won because:
 - Sub-millisecond latency
 - JetStream for persistent messaging
 - Tiny resource footprint
@@ -88,7 +88,7 @@ For inter-service communication, NATS won because:
 **application-platform** (Separate repo):
 - Application orchestration platform
 - Dynamic service spawning/scaling
-- FastAPI management interface
+- [FastAPI](/tools/software/#web-development) management interface
 
 ## Key Design Decisions
 
@@ -146,4 +146,8 @@ Each Helm chart includes:
 - **Choose boring technology** - NATS over Kafka, localhost over DNS complexity
 - **Cost-effective development is possible** - No need for expensive external dependencies
 
-The result? A completely functional GitOps environment for local development with remote access via Tailscale. Git commits are fast again, and we have a solid platform for future projects. 
+The result? A completely functional GitOps environment for local development with remote access via Tailscale. Git commits are fast again, and we have a solid platform for future projects.
+
+---
+
+*All the technologies mentioned in this post are documented with detailed information and links on the [Tools](/tools) page.* 
