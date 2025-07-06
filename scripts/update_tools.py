@@ -20,12 +20,12 @@ def main():
 
     tools = []
     if os.path.exists(tools_file):
-        with open(tools_file, "r") as f:
+        with open(tools_file, "r", encoding="utf-8") as f:
             tools = json.load(f)
 
     for filename in os.listdir(posts_dir):
         if filename.endswith(".md"):
-            with open(os.path.join(posts_dir, filename), "r") as f:
+            with open(os.path.join(posts_dir, filename), "r", encoding="utf-8") as f:
                 content = f.read()
                 links = find_md_links(content)
                 for link in links:
@@ -34,7 +34,7 @@ def main():
                     if not any(d.get('name') == tool_name for d in tools):
                         tools.append({"name": tool_name, "url": tool_url, "description": ""})
 
-    with open(tools_file, "w") as f:
+    with open(tools_file, "w", encoding="utf-8") as f:
         json.dump(tools, f, indent=2)
 
 if __name__ == "__main__":

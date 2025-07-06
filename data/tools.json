@@ -13,5 +13,35 @@
     "name": "Cloudflare Tunnel",
     "url": "https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/use-cases/ssh/",
     "description": "A service to securely expose a local server to the internet."
+  },
+  {
+    "name": "k3s",
+    "url": "/tools/software/#infrastructure--devops",
+    "description": ""
+  },
+  {
+    "name": "ArgoCD",
+    "url": "/tools/software/#infrastructure--devops",
+    "description": ""
+  },
+  {
+    "name": "Helm",
+    "url": "/tools/software/#infrastructure--devops",
+    "description": ""
+  },
+  {
+    "name": "NATS",
+    "url": "/tools/software/#infrastructure--devops",
+    "description": ""
+  },
+  {
+    "name": "FastAPI",
+    "url": "/tools/software/#web-development",
+    "description": ""
+  },
+  {
+    "name": "Tools",
+    "url": "/tools",
+    "description": ""
   }
 ]
