@@ -13,6 +13,7 @@ This page documents the software tools and frameworks that power my AI developme
 - Cursor (with Claude integration for coding)
 - VS Code (backup editor)
 - Git & GitHub (version control)
+- [GitHub Apps](https://docs.github.com/en/apps) - Secure repository integration for automation
 - Hugo (static site generation)
 
 **Local AI Models**
@@ -32,7 +33,26 @@ This page documents the software tools and frameworks that power my AI developme
 - Next.js (for AI-powered web applications)
 - React (frontend components)
 - Node.js (backend services)
+- [FastAPI](https://fastapi.tiangolo.com/) - Modern Python web framework for APIs
 - TypeScript (type safety)
+
+## Infrastructure & DevOps
+
+**Container Orchestration**
+- [k3s](https://k3s.io/) - Lightweight Kubernetes distribution for local development
+- [Kubernetes](https://kubernetes.io/) - Production container orchestration
+
+**GitOps & Deployment**
+- [ArgoCD](https://argo-cd.readthedocs.io/) - GitOps continuous delivery for Kubernetes
+- [Helm](https://helm.sh/) - Kubernetes package manager and templating
+
+**Messaging & Communication**
+- [NATS](https://nats.io/) - Cloud native messaging system with JetStream
+- Message queuing for service communication
+
+**Remote Access & Networking**
+- [Tailscale](https://tailscale.com/) - Zero-config VPN for secure remote access
+- Secure networking between development environments
 
 ## Orchestration & Automation
 
